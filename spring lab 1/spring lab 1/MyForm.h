@@ -58,6 +58,7 @@ namespace Project1 {
 			// 
 			// pictureBox1
 			// 
+			this->pictureBox1->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->pictureBox1->Location = System::Drawing::Point(12, 12);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(345, 254);
@@ -90,14 +91,14 @@ namespace Project1 {
 
 		}
 #pragma endregion
-		Drawing::Graphics^ g;
 	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
+				 Drawing::Graphics^ g;
 				 g = pictureBox1->CreateGraphics();
 	}
 	private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 	private: System::Void visibility_btn_Click(System::Object^  sender, System::EventArgs^  e) {
-
+				 
 	}
 	};
 }
